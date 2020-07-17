@@ -1,2 +1,5 @@
 # Resource_Utilization_Prediction
 The Model Forecast the resource utilization of a particular instance in the cloud environment .
+As given in problem statement, we are given the transaction logs containing the   historical data of the resource utilization per minute of a particular instance from the time it was created and destroyed, various features like Memory allocated, CPU Allocated,
+CPU Used, etc. are given in logs. There are groups also consisting of various instances.
+A group data will consist many instances and their log files, I am assuming here that each instance of a group is independent of each other , My understanding of the problem is that we have to forecast the future log file means we have to predict the future resource utilization for a given instance or given group , like how much memory it is going to take how much CPU will it use , We will predict a transactions log for the future .As we have multiple instances per group we will predict the transaction for each instance of that group.
